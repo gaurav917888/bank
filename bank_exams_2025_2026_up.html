@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Bank Exams 2025–26 | Uttar Pradesh Focus</title>
+<style>
+  :root{
+    --bg:#f5f7fb; --panel:#ffffff; --ink:#152033; --muted:#64748b; --line:#e5eaf2;
+    --blue:#2563eb; --blue2:#1d4ed8; --green:#059669; --amber:#d97706;
+    --purple:#7c3aed; --red:#dc2626; --shadow:0 12px 35px rgba(15,23,42,.08);
+    --radius:18px; --max:1180px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    background:linear-gradient(180deg,#eef4ff 0,#f7f8fb 260px,var(--bg) 100%);
+    color:var(--ink); line-height:1.55;
+  }
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--max);margin:auto;padding:24px}
+  .hero{
+    background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 62%,#2563eb 100%);
+    color:#fff;border-radius:26px;padding:34px;box-shadow:var(--shadow);overflow:hidden;position:relative;
+  }
+  .hero:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.08);right:-130px;top:-130px}
+  .eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;opacity:.8}
+  h1{margin:.35rem 0 .65rem;font-size:clamp(2rem,5vw,3.3rem);line-height:1.08}
+  .hero p{max-width:820px;margin:0;color:#dbeafe;font-size:1.02rem}
+  .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+  .chip{padding:7px 11px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.08);font-size:.84rem}
+  nav{
+    position:sticky;top:0;z-index:50;background:rgba(247,248,251,.9);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+  .navin{max-width:var(--max);margin:auto;padding:10px 24px;display:flex;gap:8px;overflow:auto}
+  .navin a{white-space:nowrap;color:#334155;padding:8px 12px;border-radius:999px;font-weight:700;font-size:.88rem}
+  .navin a:hover{background:#eaf0ff;text-decoration:none}
+  section{margin:30px 0}
+  .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:14px}
+  h2{font-size:1.55rem;margin:0}
+  .sub{color:var(--muted);margin:4px 0 0}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:19px;box-shadow:0 5px 18px rgba(15,23,42,.04)
+  }
+  .kpi{font-size:1.8rem;font-weight:900;margin:3px 0}
+  .label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:800}
+  .tiny{font-size:.82rem;color:var(--muted)}
+  .exam-card{display:flex;flex-direction:column;min-height:230px}
+  .exam-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .exam-name{font-weight:900;font-size:1.14rem}
+  .badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 9px;font-size:.72rem;font-weight:800;white-space:nowrap}
+  .b-blue{background:#e8efff;color:#1d4ed8}.b-green{background:#e9fbf3;color:#047857}.b-amber{background:#fff6df;color:#a16207}.b-purple{background:#f2eafe;color:#6d28d9}
+  .metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+  .metric{background:#f8fafc;border:1px solid var(--line);border-radius:13px;padding:11px}
+  .bar{height:9px;background:#e8edf5;border-radius:999px;overflow:hidden;margin-top:8px}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,#2563eb,#60a5fa)}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#475569;background:#f8fafc}
+  td{font-size:.93rem}
+  tr:last-child td{border-bottom:0}
+  .cutoff{font-weight:900;font-size:1.18rem}
+  .pill{font-size:.74rem;padding:3px 7px;border-radius:7px;background:#eef2ff;color:#3730a3;font-weight:800}
+  .note{
+    border-left:4px solid var(--blue);background:#eff6ff;padding:13px 16px;border-radius:10px;color:#1e3a8a;
+  }
+  .warn{border-left-color:var(--amber);background:#fff7ed;color:#92400e}
+  .success{border-left-color:var(--green);background:#ecfdf5;color:#065f46}
+  .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .tab{border:1px solid var(--line);background:var(--panel);color:#334155;padding:9px 12px;border-radius:999px;font-weight:800;cursor:pointer}
+  .tab.active{background:#1d4ed8;color:#fff;border-color:#1d4ed8}
+  .tabpanel{display:none}.tabpanel.active{display:block}
+  .pattern-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .stage{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--panel)}
+  .stage-head{padding:13px 15px;background:#f8fafc;font-weight:900;border-bottom:1px solid var(--line)}
+  .stage-body{padding:0}
+  .stage table{border:0;border-radius:0}
+  .stage th{background:#fff}
+  .sources{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .source a{font-weight:800}
+  .source .domain{font-size:.76rem;color:var(--muted);margin-top:5px}
+  footer{padding:22px 0 36px;color:var(--muted);font-size:.82rem}
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+  .search{
+    flex:1;min-width:230px;padding:11px 13px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink)
+  }
+  .select{padding:11px 13px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink)}
+  details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 15px}
+  summary{cursor:pointer;font-weight:900}
+  .legend{display:flex;flex-wrap:wrap;gap:9px;color:var(--muted);font-size:.8rem}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px}
+  .d-blue{background:#2563eb}.d-green{background:#059669}.d-amber{background:#d97706}
+  @media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}.pattern-grid,.sources{grid-template-columns:1fr}}
+  @media(max-width:650px){
+    .wrap{padding:15px}.hero{padding:25px 20px;border-radius:20px}.grid,.grid2{grid-template-columns:1fr}
+    h1{font-size:2rem}.navin{padding:9px 15px}
+    th,td{padding:9px 8px;font-size:.83rem}.kpi{font-size:1.55rem}
+  }
+  @media(prefers-color-scheme:dark){
+    :root{--bg:#0b1220;--panel:#101827;--ink:#e5e7eb;--muted:#94a3b8;--line:#243145;--shadow:0 12px 35px rgba(0,0,0,.25)}
+    body{background:linear-gradient(180deg,#0e1b38 0,#0b1220 280px)}
+    nav{background:rgba(11,18,32,.88)} .navin a{color:#cbd5e1}.navin a:hover{background:#17233b}
+    th{background:#111c2d;color:#b8c4d5}.metric{background:#0d1625}.stage-head{background:#111c2d}.stage th{background:#101827}
+    .note{background:#0b203c;color:#bfdbfe}.warn{background:#261a08;color:#fed7aa}.success{background:#09251c;color:#a7f3d0}
+    .tab{color:#dbeafe}
+  }
+  @media print{
+    nav,.toolbar,.tabs{display:none!important}.hero{box-shadow:none}.card,table{box-shadow:none}
+    body{background:#fff}.wrap{max-width:none}
+  }
+</style>
+</head>
+<body>
+<nav><div class="navin">
+  <a href="#overview">Overview</a><a href="#up">UP Vacancy & Cut-off</a><a href="#dates">2026 Dates</a>
+  <a href="#patterns">2026 Patterns</a><a href="#cycle25">2025 Cycle</a><a href="#sources">Sources</a>
+</div></nav>
+
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Bank Exam Planner • 2025 → 2026</div>
+  <h1>Bank Exams 2025–26</h1>
+  <p>UP-focused reference for <b>SBI Clerk</b>, <b>IBPS Clerk (CSA)</b>, <b>RRB Officer Scale-I (RRB PO)</b> and <b>RRB Office Assistant</b>. Vacancy and cutoff figures are for the <b>General/UR category in Uttar Pradesh</b> unless stated otherwise.</p>
+  <div class="chips">
+    <span class="chip">Last checked: 23 Sep 2026</span>
+    <span class="chip">UP / Hindi focus</span>
+    <span class="chip">Responsive + print friendly</span>
+    <span class="chip">Official schedules prioritised</span>
+  </div>
+</header>
+
+<section id="overview">
+  <div class="section-head"><div><h2>At a glance</h2><p class="sub">The four exams side-by-side.</p></div></div>
+  <div class="grid">
+    <div class="card exam-card">
+      <div class="exam-top"><div><div class="exam-name">SBI Clerk</div><div class="tiny">Junior Associate (Customer Support & Sales)</div></div><span class="badge b-blue">SBI</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="label">2026 UP GEN</div><div class="kpi">104</div><div class="tiny">Regular vacancies</div></div>
+        <div class="metric"><div class="label">2025 UP GEN</div><div class="kpi">213</div><div class="tiny">Regular vacancies</div></div>
+      </div>
+      <div class="tiny" style="margin-top:auto;padding-top:14px">2026 Prelims: 26–27 Sep • Mains: Nov 2026 (tentative)</div>
+    </div>
+    <div class="card exam-card">
+      <div class="exam-top"><div><div class="exam-name">IBPS Clerk</div><div class="tiny">Customer Service Associate (CSA)</div></div><span class="badge b-green">IBPS</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="label">2026 UP GEN</div><div class="kpi">672</div><div class="tiny">Indicative vacancies</div></div>
+        <div class="metric"><div class="label">2025 UP GEN</div><div class="kpi">554</div><div class="tiny">Indicative vacancies</div></div>
+      </div>
+      <div class="tiny" style="margin-top:auto;padding-top:14px">2026 Prelims: 10–11 Oct • Mains: 27 Dec</div>
+    </div>
+    <div class="card exam-card">
+      <div class="exam-top"><div><div class="exam-name">RRB PO</div><div class="tiny">Officer Scale-I / Assistant Manager</div></div><span class="badge b-purple">IBPS RRB</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="label">2026 UP GEN</div><div class="kpi">171</div><div class="tiny">Indicative vacancies</div></div>
+        <div class="metric"><div class="label">2025 UP GEN</div><div class="kpi">227</div><div class="tiny">Indicative vacancies</div></div>
+      </div>
+      <div class="tiny" style="margin-top:auto;padding-top:14px">2026 Prelims: 21–22 Nov • Mains: 20 Dec</div>
+    </div>
+    <div class="card exam-card">
+      <div class="exam-top"><div><div class="exam-name">RRB Office Assistant</div><div class="tiny">Multipurpose • Group B</div></div><span class="badge b-amber">IBPS RRB</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="label">2026 UP GEN</div><div class="kpi">492</div><div class="tiny">Indicative vacancies</div></div>
+        <div class="metric"><div class="label">2025 UP GEN</div><div class="kpi">410</div><div class="tiny">Indicative vacancies</div></div>
+      </div>
+      <div class="tiny" style="margin-top:auto;padding-top:14px">2026 Prelims: 6, 12, 13 Dec • Mains: 30 Jan 2027</div>
+    </div>
+  </div>
+</section>
+
+<section id="up">
+  <div class="section-head">
+    <div><h2>Uttar Pradesh: 2025 cutoff + 2025/2026 vacancy</h2><p class="sub">General/UR category; regular/indicative vacancy unless the note says otherwise.</p></div>
+  </div>
+  <div class="card" style="overflow:auto">
+    <table>
+      <thead><tr><th>Exam</th><th>2025 UP GEN vacancy</th><th>2025 Prelims cutoff</th><th>2025 Mains cutoff</th><th>2026 UP GEN vacancy</th><th>2026 status</th></tr></thead>
+      <tbody>
+        <tr><td><b>SBI Clerk</b><br><span class="tiny">JA</span></td><td><b>213</b><br><span class="tiny">Regular; UP total 514</span></td><td><span class="cutoff">61.75 / 100</span></td><td><span class="cutoff">88.75 / 200</span></td><td><b>104</b><br><span class="tiny">Regular; UP total 250</span></td><td><span class="pill">Released</span></td></tr>
+        <tr><td><b>IBPS Clerk</b><br><span class="tiny">CSA-XV → CSA-XVI</span></td><td><b>554</b><br><span class="tiny">UP total 1,315</span></td><td><span class="cutoff">42.25 / 100</span></td><td><span class="cutoff">42.25 / 100*</span></td><td><b>672</b><br><span class="tiny">UP total 1,731</span></td><td><span class="pill">Released</span></td></tr>
+        <tr><td><b>RRB PO</b><br><span class="tiny">Officer Scale-I</span></td><td><b>227</b><br><span class="tiny">UP total 500</span></td><td><span class="cutoff">58.00 / 80</span></td><td><span class="cutoff">72.94 / 200</span></td><td><b>171</b><br><span class="tiny">UP total 425</span></td><td><span class="pill">Indicative / revised</span></td></tr>
+        <tr><td><b>RRB Office Assistant</b><br><span class="tiny">Multipurpose</span></td><td><b>410</b><br><span class="tiny">UP total 1,000</span></td><td><span class="cutoff">71.75 / 80</span></td><td><span class="cutoff">76.07 / 100*</span></td><td><b>492</b><br><span class="tiny">UP total 1,200</span></td><td><span class="pill">Indicative / revised</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note warn" style="margin-top:12px">
+    <b>Cutoff scale matters:</b> SBI Clerk Mains is reported on a 200-mark scale. IBPS Clerk Mains cutoff is reported on a 100-point normalized scale. RRB PO Mains is out of 200, while RRB Office Assistant final/mains cutoff is commonly reported on a 100-point scale. Cutoffs are state/category-specific and can be affected by normalization.
+  </div>
+  <div class="tiny" style="margin-top:9px">*For IBPS Clerk and RRB Office Assistant, the published figure is used as the final/mains benchmark for provisional allotment. Check the official scorecard/cut-off notice for the exact application stage.</div>
+</section>
+
+<section id="dates">
+  <div class="section-head"><div><h2>2026 exam dates</h2><p class="sub">Dates known/released as of 23 September 2026. “Tentative” is retained where the source calls it tentative.</p></div></div>
+  <div class="card" style="overflow:auto">
+    <table>
+      <thead><tr><th>Exam</th><th>Prelims</th><th>Mains</th><th>2026 cycle note</th></tr></thead>
+      <tbody>
+        <tr><td><b>SBI Clerk</b></td><td>26–27 Sep 2026 <span class="badge b-blue">regular</span></td><td>Nov 2026 <span class="badge b-amber">tentative</span></td><td>Separate special/backlog drive had an earlier prelim on 16 Sep 2026.</td></tr>
+        <tr><td><b>IBPS Clerk / CSA-XVI</b></td><td>10–11 Oct 2026</td><td>27 Dec 2026</td><td>Official IBPS 2026–27 calendar dates.</td></tr>
+        <tr><td><b>RRB PO / Officer Scale-I</b></td><td>21–22 Nov 2026</td><td>20 Dec 2026</td><td>Interview follows Mains for shortlisted Officer Scale-I candidates.</td></tr>
+        <tr><td><b>RRB Office Assistant</b></td><td>6, 12 & 13 Dec 2026</td><td>30 Jan 2027</td><td>Official calendar crosses into 2027 for the Mains.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="patterns">
+  <div class="section-head"><div><h2>2026 exam patterns</h2><p class="sub">Use the tabs to switch between examinations.</p></div></div>
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="sbi">SBI Clerk</button>
+    <button class="tab" data-tab="ibps">IBPS Clerk</button>
+    <button class="tab" data-tab="rrbpo">RRB PO</button>
+    <button class="tab" data-tab="rrboa">RRB Office Assistant</button>
+  </div>
+
+  <div class="tabpanel active" id="tab-sbi">
+    <div class="pattern-grid">
+      <div class="stage">
+        <div class="stage-head">Prelims • 100 marks • 60 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>English Language</td><td>30</td><td>30</td><td>20 min</td></tr>
+        <tr><td>Numerical Ability</td><td>35</td><td>35</td><td>20 min</td></tr>
+        <tr><td>Reasoning Ability</td><td>35</td><td>35</td><td>20 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>100</b></td><td><b>100</b></td><td><b>60 min</b></td></tr></table></div>
+      </div>
+      <div class="stage">
+        <div class="stage-head">Mains • 200 marks • 2 h 40 min</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>General/Financial Awareness</td><td>50</td><td>50</td><td>35 min</td></tr>
+        <tr><td>General English</td><td>40</td><td>40</td><td>35 min</td></tr>
+        <tr><td>Quantitative Aptitude</td><td>50</td><td>50</td><td>45 min</td></tr>
+        <tr><td>Reasoning + Computer Aptitude</td><td>50</td><td>60</td><td>45 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>190</b></td><td><b>200</b></td><td><b>160 min</b></td></tr></table></div>
+      </div>
+    </div>
+    <div class="note success" style="margin-top:12px"><b>Selection:</b> Prelims → Mains → Local Language Proficiency Test (LPT). There is no interview for SBI Clerk.</div>
+  </div>
+
+  <div class="tabpanel" id="tab-ibps">
+    <div class="pattern-grid">
+      <div class="stage">
+        <div class="stage-head">Prelims • 100 marks • 60 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>English Language</td><td>30</td><td>30</td><td>20 min</td></tr>
+        <tr><td>Numerical Ability</td><td>35</td><td>35</td><td>20 min</td></tr>
+        <tr><td>Reasoning Ability</td><td>35</td><td>35</td><td>20 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>100</b></td><td><b>100</b></td><td><b>60 min</b></td></tr></table></div>
+      </div>
+      <div class="stage">
+        <div class="stage-head">Mains • 200 marks • 2 hours</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>Reasoning Ability + Computer Aptitude</td><td>40</td><td>60</td><td>35 min</td></tr>
+        <tr><td>English Language</td><td>40</td><td>40</td><td>35 min</td></tr>
+        <tr><td>Quantitative Aptitude</td><td>35</td><td>50</td><td>30 min</td></tr>
+        <tr><td>General/Financial Awareness</td><td>40</td><td>50</td><td>20 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>155</b></td><td><b>200</b></td><td><b>120 min</b></td></tr></table></div>
+      </div>
+    </div>
+    <div class="note success" style="margin-top:12px"><b>Selection:</b> Prelims → Mains → provisional allotment. No interview for CSA/Clerk.</div>
+  </div>
+
+  <div class="tabpanel" id="tab-rrbpo">
+    <div class="pattern-grid">
+      <div class="stage">
+        <div class="stage-head">Prelims • 80 marks • 45 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>Reasoning</td><td>40</td><td>40</td><td>25 min</td></tr>
+        <tr><td>Quantitative Aptitude</td><td>40</td><td>40</td><td>20 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>80</b></td><td><b>80</b></td><td><b>45 min</b></td></tr></table></div>
+      </div>
+      <div class="stage">
+        <div class="stage-head">Mains • 200 marks • 120 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th></tr>
+        <tr><td>Reasoning</td><td>40</td><td>50</td></tr>
+        <tr><td>Computer Knowledge</td><td>40</td><td>20</td></tr>
+        <tr><td>General Awareness</td><td>40</td><td>40</td></tr>
+        <tr><td>English Language <i>or</i> Hindi Language</td><td>40</td><td>40</td></tr>
+        <tr><td>Quantitative Aptitude</td><td>40</td><td>50</td></tr>
+        <tr><td><b>Total</b></td><td><b>200</b></td><td><b>200</b></td></tr></table></div>
+      </div>
+    </div>
+    <div class="note warn" style="margin-top:12px"><b>Selection:</b> Prelims → Mains → Common Interview → provisional allotment. Final merit uses Mains + Interview as prescribed by IBPS.</div>
+  </div>
+
+  <div class="tabpanel" id="tab-rrboa">
+    <div class="pattern-grid">
+      <div class="stage">
+        <div class="stage-head">Prelims • 80 marks • 45 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>Reasoning</td><td>40</td><td>40</td><td>25 min</td></tr>
+        <tr><td>Numerical Ability</td><td>40</td><td>40</td><td>20 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>80</b></td><td><b>80</b></td><td><b>45 min</b></td></tr></table></div>
+      </div>
+      <div class="stage">
+        <div class="stage-head">Mains • 200 marks • 120 minutes</div>
+        <div class="stage-body"><table><tr><th>Section</th><th>Q</th><th>Marks</th><th>Time</th></tr>
+        <tr><td>Reasoning</td><td>40</td><td>50</td><td>30 min</td></tr>
+        <tr><td>Computer Knowledge</td><td>40</td><td>20</td><td>15 min</td></tr>
+        <tr><td>General Awareness</td><td>40</td><td>40</td><td>15 min</td></tr>
+        <tr><td>English <i>or</i> Hindi Language</td><td>40</td><td>40</td><td>30 min</td></tr>
+        <tr><td>Numerical Ability</td><td>40</td><td>50</td><td>30 min</td></tr>
+        <tr><td><b>Total</b></td><td><b>200</b></td><td><b>200</b></td><td><b>120 min</b></td></tr></table></div>
+      </div>
+    </div>
+    <div class="note success" style="margin-top:12px"><b>Selection:</b> Prelims → Mains → provisional allotment. No interview for Office Assistant.</div>
+  </div>
+</section>
+
+<section id="cycle25">
+  <div class="section-head"><div><h2>2025 cycle: quick reference</h2><p class="sub">This section helps interpret the 2025 cutoff figures in context.</p></div></div>
+  <div class="grid2">
+    <div class="card">
+      <h3 style="margin-top:0">Vacancy snapshot — UP GEN</h3>
+      <table><tr><th>Exam</th><th>GEN</th><th>UP total</th></tr>
+        <tr><td>SBI Clerk</td><td>213</td><td>514</td></tr>
+        <tr><td>IBPS Clerk</td><td>554</td><td>1,315</td></tr>
+        <tr><td>RRB PO</td><td>227</td><td>500</td></tr>
+        <tr><td>RRB Office Assistant</td><td>410</td><td>1,000</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">2025 cutoff snapshot — UP GEN</h3>
+      <table><tr><th>Exam</th><th>Prelims</th><th>Mains</th></tr>
+        <tr><td>SBI Clerk</td><td>61.75/100</td><td>88.75/200</td></tr>
+        <tr><td>IBPS Clerk</td><td>42.25/100</td><td>42.25/100 normalized</td></tr>
+        <tr><td>RRB PO</td><td>58/80</td><td>72.94/200</td></tr>
+        <tr><td>RRB Office Assistant</td><td>71.75/80</td><td>76.07/100 final/mains</td></tr>
+      </table>
+    </div>
+  </div>
+  <details style="margin-top:14px">
+    <summary>How to read the vacancy numbers</summary>
+    <p class="tiny" style="margin-bottom:0">For SBI, the table uses regular GEN seats in Uttar Pradesh; backlog seats are separate. For IBPS and RRB, vacancy tables are indicative and can be revised based on participating-bank reporting. Therefore, use 2026 figures as the latest published position, not as a guarantee of final allotment numbers.</p>
+  </details>
+</section>
+
+<section>
+  <div class="section-head"><div><h2>Important differences for preparation</h2><p class="sub">A compact planning checklist.</p></div></div>
+  <div class="grid2">
+    <div class="card">
+      <h3 style="margin-top:0">Clerk track</h3>
+      <ul>
+        <li><b>SBI Clerk:</b> state-wise recruitment; LPT after Mains where applicable.</li>
+        <li><b>IBPS Clerk:</b> CSA recruitment across participating public-sector banks; Mains is the decisive written stage.</li>
+        <li>Both have 100-mark Prelims with English + Quant + Reasoning.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">RRB track</h3>
+      <ul>
+        <li><b>RRB PO:</b> Officer Scale-I; Prelims + Mains + Interview.</li>
+        <li><b>RRB Office Assistant:</b> Prelims + Mains; no interview.</li>
+        <li>RRB Prelims is only 80 marks, so the historical cutoff is naturally on a different scale from clerk prelims.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="section-head"><div><h2>Research sources</h2><p class="sub">Official documents are preferred; secondary sources are used where the official cutoff display is easier to cross-check.</p></div></div>
+  <div class="sources">
+    <div class="card source">
+      <a href="https://sbi.co.in/documents/77530/52947104/JA%2B2025%2B-Detailed%2BAdvt.pdf/8f7ff18f-1972-21c8-9212-5a8cf85a7099?t=1754398573326" target="_blank" rel="noopener">SBI Junior Associates 2025 detailed advertisement</a>
+      <div class="domain">sbi.co.in • vacancy and recruitment structure</div>
+    </div>
+    <div class="card source">
+      <a href="https://sbi.bank.in/web/careers/Current-openings" target="_blank" rel="noopener">SBI Current Openings</a>
+      <div class="domain">sbi.bank.in • 2026 recruitment advertisement / call-letter status</div>
+    </div>
+    <div class="card source">
+      <a href="https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf" target="_blank" rel="noopener">IBPS Tentative Calendar 2026–27</a>
+      <div class="domain">ibps.in • official PSB + RRB exam dates</div>
+    </div>
+    <div class="card source">
+      <a href="https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD-19.9.25.pdf" target="_blank" rel="noopener">IBPS CRP RRBs XIV notification</a>
+      <div class="domain">ibps.in • 2025 RRB vacancies / selection / pattern</div>
+    </div>
+    <div class="card source">
+      <a href="https://www.jagranjosh.com/articles/sbi-clerk-mains-cut-off-2025-check-category-wise-state-wise-qualifying-marks-1746014524-1" target="_blank" rel="noopener">SBI Clerk 2025 cutoff cross-check</a>
+      <div class="domain">Jagran Josh • state/category cutoff tables</div>
+    </div>
+    <div class="card source">
+      <a href="https://www.shiksha.com/exams/ibps-clerk-exam" target="_blank" rel="noopener">IBPS Clerk 2026 dates + pattern cross-check</a>
+      <div class="domain">Shiksha • CSA-XVI dates and exam pattern</div>
+    </div>
+    <div class="card source">
+      <a href="https://testbook.com/ibps-rrb-po/cut-off" target="_blank" rel="noopener">RRB PO 2025 cutoff cross-check</a>
+      <div class="domain">Testbook • 2025 state/category cutoff table</div>
+    </div>
+    <div class="card source">
+      <a href="https://guidely.in/exams/bank-insurance/ibps-rrb-clerk-cut-off" target="_blank" rel="noopener">RRB Office Assistant 2025 cutoff cross-check</a>
+      <div class="domain">Guidely • 2025 mains/final cutoff table</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="note">
+    <b>Accuracy note:</b> Vacancy figures from IBPS RRB/CSA and SBI notifications are indicative or recruitment-project-specific and can change through corrigenda. Cutoffs are historical thresholds for Uttar Pradesh General/UR and should not be treated as a forecast for 2026.
+  </div>
+  <p style="margin-top:14px">Prepared as a standalone HTML reference page. Last checked: 23 September 2026 (Asia/Kolkata).</p>
+</footer>
+</div>
+
+<script>
+  document.querySelectorAll('.tab').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+      document.querySelectorAll('.tabpanel').forEach(p=>p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
