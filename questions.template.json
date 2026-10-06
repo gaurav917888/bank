@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "datasetVersion": "YYYY.MM.DD.1",
+  "title": "Your question pack",
+  "description": "",
+  "exam": {
+    "name": "IBPS · SBI · RRB Mains",
+    "marking": { "correct": 1, "wrong": -0.25, "unattempted": 0 }
+  },
+  "subcategoryOrder": {
+    "quants": ["miscellaneous", "di", "arithmetic", "number-system", "quantity-comparison", "data-sufficiency"],
+    "reasoning": ["miscellaneous", "puzzle", "seating-arrangement", "inequality", "syllogism", "coding-decoding", "input-output", "data-sufficiency"]
+  },
+  "sets": [],
+  "questions": [
+    {
+      "id": "Q-QNT-001",
+      "subject": "quants",
+      "subcategory": "miscellaneous",
+      "topic": "Topic",
+      "difficulty": "mains",
+      "source": { "name": "Source PDF", "page": 1 },
+      "questionHtml": "Question text",
+      "options": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctOption": "A",
+      "solution": {
+        "summary": "Answer summary",
+        "steps": [
+          { "title": "1. Key step", "bodyHtml": "Explain the first step." },
+          { "title": "2. Next step", "bodyHtml": "Show the calculation/inference." }
+        ],
+        "quickMethod": "Optional reliable shortcut.",
+        "trap": "Optional common mistake.",
+        "finalAnswer": "A — Option A"
+      }
+    }
+  ]
+}
