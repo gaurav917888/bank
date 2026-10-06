@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.10.06-a",
+  "title": "Full Mock Test",
+  "subtitle": "Reasoning + Quantitative Aptitude",
+  "subjectsNote": "One combined mock. Two tabs (sections) - Reasoning and Quant. Each tab's palette is split into two subsections.",
+  "sections": [
+    {
+      "id": "reasoning",
+      "name": "Reasoning",
+      "subsections": [
+        {
+          "id": "misc",
+          "name": "Miscellaneous"
+        },
+        {
+          "id": "puzzle",
+          "name": "Puzzle"
+        }
+      ]
+    },
+    {
+      "id": "quant",
+      "name": "Quant",
+      "subsections": [
+        {
+          "id": "misc",
+          "name": "Miscellaneous"
+        },
+        {
+          "id": "di",
+          "name": "Data Interpretation"
+        }
+      ]
+    }
+  ],
+  "files": [
+    "data/reasoning.json",
+    "data/quant.json"
+  ]
+}
