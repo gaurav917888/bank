@@ -1,0 +1,9 @@
+{
+  "name": "MainsLab — Bank Mains Mock Platform",
+  "short_name": "MainsLab",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef3fa",
+  "theme_color": "#08152f",
+  "description": "Offline-first IBPS · SBI · RRB mains practice platform with detailed solutions."
+}
